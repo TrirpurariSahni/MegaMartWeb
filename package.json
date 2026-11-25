@@ -1,9 +1,9 @@
 {
-  "name": "quickkart",
+  "name": "megamart-web",
   "private": true,
   "version": "1.0.0",
   "type": "module",
-  "description": "QuickKart - Modern Grocery Delivery App",
+  "description": "MegaMart - Flagship E-Commerce Platform (Flipkart × Amazon × Myntra Inspired)",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -17,11 +17,13 @@
     "@supabase/supabase-js": "^2.119.0"
   },
   "keywords": [
-    "grocery",
-    "delivery",
-    "quickkart",
-    "ecommerce"
+    "ecommerce",
+    "megamart",
+    "quick-commerce",
+    "shopping",
+    "vite",
+    "supabase"
   ],
-  "author": "",
+  "author": "Sahani Tripurari",
   "license": "MIT"
 }
