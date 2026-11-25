@@ -183,7 +183,7 @@ npm run build
 
 ## Author & Contact
 
-**Sahani Tripurari** — Full-Stack Software Developer  
+**Trirpurari Sahni** — Full-Stack Software Developer  
 - **GitHub**: [@sahaniTripurari](https://github.com/sahaniTripurari)  
 - **Email**: sahanitrirpurari@gmail.com  
 - **Production URL**: [https://mega-mart-web.vercel.app](https://mega-mart-web.vercel.app/)
