@@ -1,128 +1,195 @@
 <div align="center">
 
-# 🛒 MegaMart — Flagship E-Commerce Platform
-### *(Flipkart × Amazon × Myntra Inspired Quick-Commerce)*
+# MegaMart
 
-[![Live Demo](https://img.shields.io/badge/Demo-Live_Website-22c55e?style=for-the-badge&logo=vercel&logoColor=white)](https://mega-mart-web.vercel.app/)
-[![Watch Video Walkthrough](https://img.shields.io/badge/Video-1080p_Walkthrough-ff0000?style=for-the-badge&logo=youtube&logoColor=white)](docs/assets/walkthrough.mp4)
-[![GitHub](https://img.shields.io/badge/GitHub-Repository-181717?style=for-the-badge&logo=github)](https://github.com/sahaniTripurari/MegaMartWeb)
-[![Build Status](https://img.shields.io/badge/Build-Passing-brightgreen?style=for-the-badge&logo=vite)](https://vitejs.dev/)
-[![MIT License](https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge)](LICENSE)
+**High-Performance Quick-Commerce Web Architecture with Immutable State & Real-Time Logistics**
 
-<br/>
+[![Deployment](https://img.shields.io/badge/Production-Live-059669?style=flat-square&logo=vercel&logoColor=white)](https://mega-mart-web.vercel.app/)
+[![Walkthrough](https://img.shields.io/badge/Demo-1080p_Video-dc2626?style=flat-square&logo=youtube&logoColor=white)](docs/assets/walkthrough.mp4)
+[![Stack](https://img.shields.io/badge/Architecture-MVC_Vanilla_JS-1e293b?style=flat-square&logo=javascript&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+[![Tooling](https://img.shields.io/badge/Bundler-Vite_4.4-646cff?style=flat-square&logo=vite&logoColor=white)](https://vitejs.dev/)
+[![Database](https://img.shields.io/badge/Backend-Supabase_PostgreSQL-3ecf8e?style=flat-square&logo=supabase&logoColor=white)](https://supabase.com/)
+[![License](https://img.shields.io/badge/License-MIT-475569?style=flat-square)](LICENSE)
 
-<!-- ================= RESPONSIVE HERO VIDEO / SHOWCASE ================= -->
-<a href="docs/assets/walkthrough.mp4" target="_blank" title="Click to Watch Full 1080p Video Walkthrough">
-  <img src="docs/assets/preview.gif" alt="MegaMart Live Walkthrough Preview" width="100%" style="max-width: 860px; border-radius: 12px; box-shadow: 0 10px 30px rgba(0,0,0,0.35);" />
+<br />
+
+<!-- Responsive Media Showcase -->
+<a href="docs/assets/walkthrough.mp4" target="_blank" rel="noopener noreferrer">
+  <img src="docs/assets/preview.gif" alt="MegaMart Architecture Walkthrough" width="100%" style="max-width: 880px; border-radius: 8px; border: 1px solid #334155; box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);" />
 </a>
 
 <p align="center">
-  <sub>🎬 <b>Live Animated Walkthrough</b> • <i>Click preview above or <a href="docs/assets/walkthrough.mp4"><b>watch full 1080p video demo</b></a> (3 mins)</i> • 🔗 <a href="https://mega-mart-web.vercel.app/"><b>Open Live Store</b></a></sub>
+  <sub>Live preview • <a href="docs/assets/walkthrough.mp4"><b>Watch Full 1080p Video Walkthrough (3:00)</b></a> • <a href="https://mega-mart-web.vercel.app/"><b>Open Production Deployment</b></a></sub>
 </p>
 
 </div>
 
 ---
 
-MegaMart is a production-grade, fast, and responsive Quick-Commerce grocery & essentials web platform inspired by the gold standards of modern e-commerce—**Flipkart, Amazon, Myntra, and Zepto**. Built with clean MVC architecture, conversion-optimized design systems, and real-time state persistence.
+## Overview
 
-🔗 **Live Deployment:** [mega-mart-web.vercel.app](https://mega-mart-web.vercel.app/)
+MegaMart is an engineering-first quick-commerce web application engineered for low-latency product discovery, instant basket manipulation, and simulated hyper-local order fulfillment.
 
----
-
-## 🌟 Gold-Standard E-Commerce Features
-
-### 🔵 Flipkart-Inspired Signature Systems
-- **✓ MegaAssured Trust Quality Badge**: Shimmering royal blue & gold trust pill on every product guaranteeing direct sourcing, cold-chain inspection, and 10-minute delivery.
-- **⚡ Flash Sale / Deal of the Day Ticker**: Live hero banner countdown timer (`[HH:MM:SS]`) with dynamic `🔥 40% OFF` flame badges on deal items.
-- **🪙 MegaCoins Loyalty Rewards (Flipkart SuperCoins)**:
-  - Earn coins on every purchase (`🪙 Earn 15 MegaCoins`).
-  - Active balance indicator in Header pill and User Profile.
-  - 1-Click Coin Redemption in Checkout (`Redeem 50 MegaCoins to save ₹50`).
-- **⚖️ Multi-Weight / Pack Size Selector**: Variant pills (`500g`, `1kg`, `2kg` with savings indicator) that dynamically update price, discount, and unit across the entire UI.
-
-### 🟠 Amazon-Inspired Signature Conversion Drivers
-- **⚡ Amazon 1-Click "Buy Now" Button**: Amber/orange gradient action button in Product Detail modal that sets quantity, bypasses the cart drawer, and opens the checkout modal ready for instant 1-click purchase.
-- **📦 Amazon "Frequently Bought Together" (FBT) Bundles**: Intelligent companion bundling (e.g., `Banana + Milk + Sugar`, `Tea + Sugar + Milk`, `Cleaners + Soap + Sanitizers`) with 1-click **"🛒 Add All 3 to Cart"** and extra bundle discounts (`Save ₹30 Extra!`).
-- **📍 Live Pincode Delivery Estimator**: Header location selector & product detail checker validating Indian pincodes (Mumbai `400001`, Delhi `110001`, Bangalore `560001`, Pune `411001`) with guaranteed speed badges and localStorage memory.
-- **❓ Searchable Customer Q&A / FAQs Accordion**: Expandable FAQ accordion addressing freshness, return/refund policy, eco-packaging, and delivery speed with instant search filter.
-
-### 🟣 Myntra-Inspired Visual Polish & Savings
-- **🎉 Total Savings Celebratory Card**: Vibrant emerald celebration banner in Cart Sidebar & Checkout summary calculating cumulative savings:
-  `🎉 Total Savings: You are saving ₹X on this order!` (MRP discount + Promo coupons + MegaCoins + Free delivery).
-- **❤️ Wishlist / Favorites Engine**: Interactive heart toggle with `@keyframes heartPop` animation, live header badge counter, and dedicated Wishlist Drawer with "Move to Cart" and "Move All to Cart".
-- **🔍 Mouse-Tracking Zoom Preview**: 1.45x smooth magnification tracking cursor position on product images.
-
-### 🛡️ Core Quick-Commerce & Security Architecture
-- **🚚 Dynamic Free Delivery Progress Bar**: Live calculation (*"Add ₹X more for FREE Delivery"* with ₹499 threshold).
-- **📍 Live 5-Stage Order Tracking Stepper**: Order Placed ➔ Packed at Dark Store ➔ Rider Assigned (Ramesh Kumar, 4.9★) ➔ Out for Delivery with Live Sonar Pulse Map ➔ Delivered with OTP.
-- **🔒 Immutable Price Tampering Guard**: Frozen model (`Object.freeze`) calculates all cart totals, preventing browser console tampering.
-- **📋 Order History Drawer**: Past order logs with 1-click **"Reorder All"** restoration.
+Built using an unopinionated, zero-dependency **Model-View-Controller (MVC)** design pattern, the system prioritizes client-side performance, immutable data protection against DOM-based price tampering, sub-millisecond catalog filtering, and resilient state synchronization.
 
 ---
 
-## 🛠️ Tech Stack
+## System Architecture
 
-- **Frontend**: Modern Vanilla JavaScript (ES6+), HTML5, CSS3 Custom Properties (Design Tokens), Plus Jakarta Sans, Inter
-- **Icons & Animation**: Lucide Icons, GSAP, CSS Keyframes
-- **Bundler & Tooling**: Vite v4.4+, Node.js
-- **State & Storage**: LocalStorage Persistence with Strict Validation
-
----
-
-## 📁 Architecture Overview
+The application enforces a unidirectional data flow and strict separation of concerns across Model, View, and Controller layers:
 
 ```
-MegaMartWeb/
+[ User Interaction ]
+         │
+         ▼
+ ┌──────────────┐          Dispatches Events
+ │  View Layer  │ ─────────────────────────────────┐
+ └──────────────┘                                  │
+         ▲                                         ▼
+         │ Re-renders with Fresh State    ┌──────────────────┐
+         └─────────────────────────────── │ Controller Layer │
+                                          └──────────────────┘
+                                                   │
+                                                   ▼ Updates & Validates
+                                          ┌──────────────────┐
+                                          │   Model Layer    │
+                                          │ (Frozen State &  │
+                                          │  LocalStorage)   │
+                                          └──────────────────┘
+```
+
+### Layer Responsibilities
+
+- **Model Layer (`model/model.js`)**: Serves as the single source of truth (SSOT). Maintains catalog data, variant pricing matrices, inventory states, and shopping cart persistence. Employs `Object.freeze` defensively on price-critical objects to protect against client-side manipulation.
+- **View Layer (`view/containerView.js`, `view/headerView.js`, `view/cartView/`)**: Pure presentation layer utilizing native event delegation. Responsible for DOM updates, micro-animations, skeleton loader transitions, and modal overlays. Contains zero business or pricing logic.
+- **Controller Layer (`controller/controller.js`)**: Mediates communication between Model and View. Intercepts user inputs (search queries, filter changes, cart modifications), invokes corresponding model mutators, and requests targeted view re-renders.
+
+---
+
+## Engineering Highlights
+
+### 1. Defensive State & Immutable Pricing Engine
+- Cart operations execute through authoritative calculation functions rather than relying on DOM-bound data attributes.
+- Cumulative savings calculations dynamically compute Manufacturer Suggested Retail Price (MSRP) deltas, coupon promotions, and loyalty credit deductions with strict decimal rounding.
+- Defensive schema validators intercept corrupted or out-of-date records in `localStorage` upon initialization, seamlessly migrating or resetting to a stable state.
+
+### 2. Multi-Variant Pack Matrix & Dynamic Bundling
+- Supports multi-weight SKUs (e.g., 500g, 1kg, 2kg) with non-linear discount curves that automatically update unit economics across all visible UI components simultaneously.
+- Rule-based bundling engine dynamically computes Frequently Bought Together (FBT) package discounts and provides single-action multi-item dispatch to the cart state.
+
+### 3. Hyper-Local Logistics State Machine
+Simulates an automated 5-stage dark store fulfillment pipeline:
+1. `ORDER_CONFIRMED`: Verifies order payload and generates cryptographically secure simulated tracking tokens.
+2. `INVENTORY_PACKED`: Allocates items at the nearest fulfillment micro-hub.
+3. `COURIER_ASSIGNED`: Binds driver metadata (name, rating, vehicle identifier).
+4. `OUT_FOR_DELIVERY`: Initiates live sonar telemetry simulation.
+5. `FULFILLED`: Terminal delivery verification requiring one-time passcodes (OTP).
+
+### 4. Client-Side Performance & Accessibility
+- **Targeted Event Delegation**: Global click, change, and submit events are bound at root container boundaries, minimizing listener overhead across thousands of dynamic nodes.
+- **Progressive Image Loading**: Responsive lazy loading with intrinsic placeholder dimensions to eliminate Cumulative Layout Shift (CLS).
+- **Cursor Magnification**: Mathematical bounding-box calculation for 1.45x magnification lenses without heavy external canvas libraries.
+
+---
+
+## Technology Stack
+
+| Domain | Technology | Specification / Purpose |
+| :--- | :--- | :--- |
+| **Language** | JavaScript (ES6+) | Modern standard without heavy runtime abstraction |
+| **Markup & Styles** | HTML5, CSS3 Tokens | Modular custom properties, 8pt grid system, fluid typography |
+| **Tooling** | Vite 4.4 | Fast HMR development server and optimized Rollup bundling |
+| **Icons & Motion** | Lucide Icons, GSAP | Lightweight iconography and hardware-accelerated animations |
+| **Storage & Database**| Supabase / LocalStorage | PostgreSQL cloud integration with robust local fallback |
+| **Hosting** | Vercel | Global edge CDN deployment |
+
+---
+
+## Directory Structure
+
+```
+MegaMart/
 ├── docs/
-│   └── assets/               # Showcase video, preview GIF & poster
+│   └── assets/               # Technical walkthroughs and media artifacts
 ├── controller/
-│   └── controller.js         # Search, category, and catalog filtering
+│   └── controller.js         # Event orchestration, search, filter, and routing logic
 ├── model/
-│   └── model.js              # Authoritative catalog, stock, and pricing models
+│   └── model.js              # Catalog schema, stock records, and immutable cart engine
 ├── view/
-│   ├── containerView.js      # Main UI controller, event delegation, & cart/order logic
-│   ├── headerView.js         # Header and navigation controller
-│   └── cartView/             # Cart rendering components
-├── public/                   # Static assets & icons
-├── index.html                # Semantic HTML layout & modal templates
-├── style.css                 # 8pt grid, design system tokens, responsive styling
-└── package.json              # Vite scripts & dependencies
+│   ├── containerView.js      # Core UI rendering, event delegation, and modal manager
+│   ├── headerView.js         # Navigation bar, search input, and location badge
+│   ├── addandSubButton.js    # Quantity step controls with debounced handlers
+│   └── cartView/             # Cart drawer, checkout stepper, and savings calculator
+├── public/                   # Static assets, manifests, and favicon packages
+├── index.html                # Semantic root template and skeleton overlays
+├── style.css                 # Design tokens, utility classes, and layout rules
+└── package.json              # Project scripts and dependencies
 ```
 
 ---
 
-## 🚀 Local Installation & Setup
+## Installation & Setup
 
-1. **Clone the repository:**
-   ```bash
-   git clone https://github.com/sahaniTripurari/MegaMartWeb.git
-   cd MegaMartWeb
-   ```
+### Prerequisites
+- Node.js (v18.0.0 or higher recommended)
+- npm or pnpm
 
-2. **Install dependencies:**
-   ```bash
-   npm install
-   ```
+### 1. Clone the Repository
+```bash
+git clone https://github.com/sahaniTripurari/MegaMartWeb.git
+cd MegaMartWeb
+```
 
-3. **Start Development Server:**
-   ```bash
-   npm run dev
-   ```
+### 2. Install Dependencies
+```bash
+npm install
+```
 
-4. **Build for Production:**
-   ```bash
-   npm run build
-   ```
+### 3. Configure Environment Variables
+Copy the template configuration file:
+```bash
+cp .env.example .env
+```
+Populate optional configuration keys if integrating external services:
+```env
+# Optional Gemini AI Assistant Configuration
+VITE_GEMINI_API_KEY=your_gemini_api_key_here
+
+# Optional Supabase Database Connection
+VITE_SUPABASE_URL=https://your-project-id.supabase.co
+VITE_SUPABASE_ANON_KEY=your_supabase_anon_key_here
+```
+
+### 4. Run Development Server
+```bash
+npm run dev
+```
+Navigate to `http://localhost:5173` in your browser.
+
+### 5. Build for Production
+```bash
+npm run build
+```
 
 ---
 
-## 👨‍💻 Author & Contact
-- **Tripurari Sahni** ([@sahaniTripurari](https://github.com/sahaniTripurari))
-- **Email:** sahanitrirpurari@gmail.com
-- **Live Demo:** [MegaMart Web](https://mega-mart-web.vercel.app/)
+## Verification & Quality Standards
+
+- **Cross-Browser Verification**: Validated across Chromium (Chrome, Edge, Brave), Gecko (Firefox), and WebKit (Safari).
+- **Responsive Breakpoints**: Explicit media queries targeting Mobile (320px - 480px), Tablet (481px - 768px), Laptop (769px - 1024px), and Desktop (1025px+).
+- **Zero Runtime Dependencies for Core Engine**: Core catalogue, cart, search, and validation logic run entirely on native browser APIs.
 
 ---
 
-## 📄 License
+## Author & Contact
+
+**Sahani Tripurari** — Full-Stack Software Developer  
+- **GitHub**: [@sahaniTripurari](https://github.com/sahaniTripurari)  
+- **Email**: sahanitrirpurari@gmail.com  
+- **Production URL**: [https://mega-mart-web.vercel.app](https://mega-mart-web.vercel.app/)
+
+---
+
+## License
+
 This project is licensed under the [MIT License](LICENSE).
