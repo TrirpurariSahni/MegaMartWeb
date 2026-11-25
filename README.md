@@ -1,10 +1,32 @@
-# 🛒 MegaMart - Flagship E-Commerce Platform (Flipkart × Amazon × Myntra Inspired)
+<div align="center">
+
+# 🛒 MegaMart — Flagship E-Commerce Platform
+### *(Flipkart × Amazon × Myntra Inspired Quick-Commerce)*
 
 [![Live Demo](https://img.shields.io/badge/Demo-Live_Website-22c55e?style=for-the-badge&logo=vercel&logoColor=white)](https://mega-mart-web.vercel.app/)
+[![Watch Video Walkthrough](https://img.shields.io/badge/Video-1080p_Walkthrough-ff0000?style=for-the-badge&logo=youtube&logoColor=white)](docs/assets/walkthrough.mp4)
 [![GitHub](https://img.shields.io/badge/GitHub-Repository-181717?style=for-the-badge&logo=github)](https://github.com/sahaniTripurari/MegaMartWeb)
 [![Build Status](https://img.shields.io/badge/Build-Passing-brightgreen?style=for-the-badge&logo=vite)](https://vitejs.dev/)
+[![MIT License](https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge)](LICENSE)
+
+<br/>
+
+<!-- ================= RESPONSIVE HERO VIDEO / SHOWCASE ================= -->
+<a href="docs/assets/walkthrough.mp4" target="_blank" title="Click to Watch Full 1080p Video Walkthrough">
+  <img src="docs/assets/preview.gif" alt="MegaMart Live Walkthrough Preview" width="100%" style="max-width: 860px; border-radius: 12px; box-shadow: 0 10px 30px rgba(0,0,0,0.35);" />
+</a>
+
+<p align="center">
+  <sub>🎬 <b>Live Animated Walkthrough</b> • <i>Click preview above or <a href="docs/assets/walkthrough.mp4"><b>watch full 1080p video demo</b></a> (3 mins)</i> • 🔗 <a href="https://mega-mart-web.vercel.app/"><b>Open Live Store</b></a></sub>
+</p>
+
+</div>
+
+---
 
 MegaMart is a production-grade, fast, and responsive Quick-Commerce grocery & essentials web platform inspired by the gold standards of modern e-commerce—**Flipkart, Amazon, Myntra, and Zepto**. Built with clean MVC architecture, conversion-optimized design systems, and real-time state persistence.
+
+🔗 **Live Deployment:** [mega-mart-web.vercel.app](https://mega-mart-web.vercel.app/)
 
 ---
 
@@ -52,6 +74,8 @@ MegaMart is a production-grade, fast, and responsive Quick-Commerce grocery & es
 
 ```
 MegaMartWeb/
+├── docs/
+│   └── assets/               # Showcase video, preview GIF & poster
 ├── controller/
 │   └── controller.js         # Search, category, and catalog filtering
 ├── model/
@@ -93,5 +117,12 @@ MegaMartWeb/
 
 ---
 
-## 👨‍💻 Author
+## 👨‍💻 Author & Contact
 - **Tripurari Sahni** ([@sahaniTripurari](https://github.com/sahaniTripurari))
+- **Email:** sahanitrirpurari@gmail.com
+- **Live Demo:** [MegaMart Web](https://mega-mart-web.vercel.app/)
+
+---
+
+## 📄 License
+This project is licensed under the [MIT License](LICENSE).
