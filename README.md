@@ -136,7 +136,7 @@ MegaMart/
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/sahaniTripurari/MegaMartWeb.git
+git clone https://github.com/TrirpurariSahni/MegaMartWeb.git
 cd MegaMartWeb
 ```
 
@@ -184,7 +184,7 @@ npm run build
 ## Author & Contact
 
 **Trirpurari Sahni** — Full-Stack Software Developer  
-- **GitHub**: [@sahaniTripurari](https://github.com/sahaniTripurari)  
+- **GitHub**: [@TrirpurariSahni](https://github.com/TrirpurariSahni)  
 - **Email**: sahanitrirpurari@gmail.com  
 - **Production URL**: [https://mega-mart-web.vercel.app](https://mega-mart-web.vercel.app/)
 
